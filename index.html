@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Album</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpg" alt="Music"></li>
+            <li><a href= "index.html">Home</a></li>
+            <input type="text" placeholder="Search Here...."/>
+            <li>About</li>
+            <li>Login</li>
+            <li>Register</li>
+        </ul>
+    </nav>
+
+    <div class = "album">
+        <div>
+            <img src = "./covers/eminem.jpg" onclick="nextPage()"/>
+            <p>Artist: Eminem</p>
+        </div>
+        <div>
+            <img src = "./covers/enrique.jpg" onclick="nextPage1()"/>
+            <p>Artist: Enrique Iglesias</p>
+        </div>
+        <div>
+            <img src = "./covers/bruno.jpg" onclick="nextPage2()"/>
+            <p>Artist: Bruno Mars</p>
+        </div>
+        <div>
+            <img src = "./covers/akon.jpg" onclick="nextPage3()"/>
+            <p>Artist: Akon</p>
+        </div>
+        <div>
+            <img src = "./covers/adele.png" onclick="nextPage4()"/>
+            <p>Artist: Adele</p>
+        </div>
+        <div>
+            <img src = "./covers/drake.jpg" onclick="nextPage5()"/>
+            <p>Artist: Drake</p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
